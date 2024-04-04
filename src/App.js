@@ -215,7 +215,7 @@ const App = () => {
     if (savedData) {
       setData(JSON.parse(savedData));
     }
-  }, [data]);
+  }, []); 
   
 
   const handleDelete = (index) => {
